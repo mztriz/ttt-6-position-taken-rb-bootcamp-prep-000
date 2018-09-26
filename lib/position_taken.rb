@@ -1,7 +1,7 @@
 def position_taken?(board, index)
   if (board[index].join.to_s == "" || board[index].join.to_s == " " || board[index] == nil)
-    false
+    return false
   else
-    true
+    return true
   end
 end
